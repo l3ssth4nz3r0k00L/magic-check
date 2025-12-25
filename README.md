@@ -28,7 +28,9 @@ Learning how file signatures actually work
 # REQUIREMENTS
 
 Python *3.8+*
+
 Works on *Windows* and *Linux* (Currently tested on Windows 11 and Parrot OS)
+
 No external dependencies
 
 ---
