@@ -6,10 +6,10 @@ WHAT IT DOES
 MAGIC CHECK reads the first bytes of a file (magic numbers) and compares them against known signatures to determine the true file type.
 
 For each file, it reports whether the extension:
-✅ matches the detected type
-❌ mismatches the detected type
-❓ has no recognizable magic signature
-⚠️ has suspicious characteristics (executables disguised as images, archives posing as documents, etc.)
+ ✅ matches the detected type
+ ❌ mismatches the detected type
+ ❓ has no recognizable magic signature
+ ⚠️ has suspicious characteristics (executables disguised as images, archives posing as documents, etc.)
 
 This makes it useful for:
 File integrity checks
