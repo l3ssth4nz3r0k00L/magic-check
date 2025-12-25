@@ -17,7 +17,6 @@ For each file, it reports whether the extension:
 
 
 USE CASES
-
 File integrity checks  
 Media library audits  
 Investigating suspicious files  
@@ -25,7 +24,6 @@ Learning how file signatures actually work
 
 
 REQUIREMENTS
-
 Python *3.8+*
 
 Works on *Windows* and *Linux* (Currently tested on Windows 11 and Parrot OS)
