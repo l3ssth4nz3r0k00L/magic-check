@@ -5,8 +5,7 @@ MAGIC CHECK is a lightweight Python CLI tool that verifies a file’s *real* typ
 It answers one simple question:
 Is this file actually what it claims to be?
 
-# WHAT IT DOES
-
+WHAT IT DOES
 MAGIC CHECK reads the first bytes of a file (magic numbers) and compares them against known signatures to determine the true file type.
 
 For each file, it reports whether the extension:
@@ -32,9 +31,6 @@ Python *3.8+*
 Works on *Windows* and *Linux* (Currently tested on Windows 11 and Parrot OS)
 
 No external dependencies
-
----
-
 # USAGE
 Run the script directly with Python:
 ```bash
