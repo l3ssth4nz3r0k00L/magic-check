@@ -10,15 +10,17 @@ For each file, it reports whether the extension:
 ❌ mismatches the detected type
 ❓ has no recognizable magic signature
 ⚠️ has suspicious characteristics (executables disguised as images, archives posing as documents, etc.)
+
 This makes it useful for:
-- File integrity checks
-- Media library audits
-- Investigating suspicious files
-- Learning how file signatures actually work
-# Requirements
-- Python **3.8+**
-- Works on **Windows**, **Linux** (currently only tested on Windows 11 & ParrotOS)
-- No dependencies
+File integrity checks
+Media library audits
+Investigating suspicious files
+Learning how file signatures actually work
+
+- REQUIREMENTS
+Python **3.8+**
+Works on **Windows**, **Linux** (currently only tested on Windows 11 & ParrotOS)
+No dependencies
 
 # USAGE
 Run the script directly with Python:
