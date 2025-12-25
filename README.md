@@ -3,10 +3,7 @@
 **MAGIC CHECK** is a lightweight Python CLI tool that verifies a file’s *real* type using magic bytes instead of trusting file extensions.
 
 It answers one simple question:
-
-> **Is this file actually what it claims to be?**
-
----
+Is this file actually what it claims to be?
 
 ## ✨ What It Does
 
@@ -19,9 +16,8 @@ For each file, it reports whether the extension:
 - ❓ has no recognizable magic signature  
 - ⚠️ shows suspicious characteristics (executables disguised as images, archives posing as documents, etc.)
 
----
 
-## 🧪 Use Cases
+## USE CASES
 
 - File integrity checks  
 - Media library audits  
@@ -30,7 +26,7 @@ For each file, it reports whether the extension:
 
 ---
 
-## 🛠 Requirements
+## REQUIREMENTS
 
 - Python **3.8+**
 - Works on **Windows** and **Linux**
