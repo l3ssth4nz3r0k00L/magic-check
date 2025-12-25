@@ -5,7 +5,7 @@
 It answers one simple question:
 Is this file actually what it claims to be?
 
-## ✨ What It Does
+## WHAT IT DOES
 
 MAGIC CHECK reads the first bytes of a file (magic numbers) and compares them against known signatures to determine the true file type.
 
