@@ -11,20 +11,19 @@ MAGIC CHECK reads the first bytes of a file (magic numbers) and compares them ag
 
 For each file, it reports whether the extension:
 
-- ✅ matches the detected type  
-- ❌ mismatches the detected type  
-- ❓ has no recognizable magic signature  
-- ⚠️ shows suspicious characteristics (executables disguised as images, archives posing as documents, etc.)
+[OK] matches the detected type  
+[MISMATCH] mismatches the detected type  
+[UNKNOWN TYPE]  has no recognizable magic signature  
+⚠️ shows suspicious characteristics (executables disguised as images, archives posing as documents, etc.)
 
 
 ## USE CASES
 
-- File integrity checks  
-- Media library audits  
-- Investigating suspicious files  
-- Learning how file signatures actually work  
+File integrity checks  
+Media library audits  
+Investigating suspicious files  
+Learning how file signatures actually work  
 
----
 
 ## REQUIREMENTS
 
