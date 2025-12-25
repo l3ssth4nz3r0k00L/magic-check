@@ -16,7 +16,7 @@ For each file, it reports whether the extension:
 ⚠️ shows suspicious characteristics (executables disguised as images, archives posing as documents, etc.)
 
 
-# USE CASES
+USE CASES
 
 File integrity checks  
 Media library audits  
@@ -24,7 +24,7 @@ Investigating suspicious files
 Learning how file signatures actually work  
 
 
-# REQUIREMENTS
+REQUIREMENTS
 
 Python *3.8+*
 
