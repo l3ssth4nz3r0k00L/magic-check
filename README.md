@@ -1,11 +1,11 @@
-# 🔮 MAGIC CHECK
+## MAGIC CHECK
 
 **MAGIC CHECK** is a lightweight Python CLI tool that verifies a file’s *real* type using magic bytes instead of trusting file extensions.
 
 It helps answer one simple question:
 > “Is this file actually what it claims to be?”
 
-## WHAT IT DOES
+# WHAT IT DOES
 MAGIC CHECK reads the first bytes of a file (magic numbers) and compares them against known signatures to determine the true file type.
 
 For each file, it reports whether the extension:
@@ -20,12 +20,12 @@ This makes it useful for:
 - Investigating suspicious files
 - Learning how file signatures actually work
 
-## 🛠 Requirements
+# Requirements
 - Python **3.8+**
 - Works on **Windows**, **Linux** (currently only tested on Windows 11 & ParrotOS)
 - No dependencies
 
-## USAGE
+# USAGE
 Run the script directly with Python:
 ```bash
 python magic_check.py [options] <path> [path ...]
