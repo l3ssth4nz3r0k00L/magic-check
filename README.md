@@ -1,9 +1,9 @@
 ## MAGIC CHECK
 
-**MAGIC CHECK** is a lightweight Python CLI tool that verifies a file’s *real* type using magic bytes instead of trusting file extensions.
+MAGIC CHECK is a lightweight Python CLI tool that verifies a file’s *real* type using magic bytes instead of trusting file extensions.
 
 It helps answer one simple question:
-> “Is this file actually what it claims to be?”
+Is this file actually what it claims to be?
 
 # WHAT IT DOES
 MAGIC CHECK reads the first bytes of a file (magic numbers) and compares them against known signatures to determine the true file type.
